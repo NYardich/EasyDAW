@@ -9,7 +9,7 @@ import javax.swing.*;
 // Inheritance of JPanel
 public class MusicApp extends JPanel {
 
-	// Database [Use your own user + pass to connect, although the database for this project won't exist on your localhost]
+	// Database [Use your own user + pass to connect, db running on localhost using mySQL]
 	private static final String user = "";
 	private static final String pass = "";
 	private static final String dbURL = "jdbc:mysql://localhost:3306/easydaw?user=" + user

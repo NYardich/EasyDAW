@@ -48,8 +48,7 @@ public class VirtualPianoView extends JPanel implements KeyListener {
             synthesizer = MidiSystem.getSynthesizer();
          // Starts synthesizer operation
             synthesizer.open();
-         // Synthesizer noise (gets channels from default midisystem synth and uses them
-         			// to produce noise)
+         // Synthesizer noise (gets channels from default midisystem synth and uses them to produce noise)
             channel = synthesizer.getChannels()[0];
         }
         catch (Exception e) {
